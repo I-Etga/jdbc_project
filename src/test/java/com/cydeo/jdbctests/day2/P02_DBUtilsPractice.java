@@ -12,7 +12,7 @@ public class P02_DBUtilsPractice {
     public void task1() {
 
         //create a connection
-        //DB_Util.createConnection("jdbc:oracle:thin:@54.173.124.216:1521:XE", "hr", "hr");
+        //DB_Util.createConnection("jdbc:oracle:thin:@52.23.200.192:1521:XE", "hr", "hr");
         DB_Util.createConnection();
         // run query
         DB_Util.runQuery("SELECT FIRST_NAME,LAST_NAME,SALARY FROM EMPLOYEES");

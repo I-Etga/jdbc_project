@@ -6,7 +6,7 @@ import java.sql.*;
 
 public class P03_MetaData {
     //CONNECTION STRING
-    String dbUrl = "jdbc:oracle:thin:@54.173.124.216:1521:XE";
+    String dbUrl = "jdbc:oracle:thin:@52.23.200.192:1521:XE";
     String dbUsername = "hr";
     String dbPassword = "hr";
 
